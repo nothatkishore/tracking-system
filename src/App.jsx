@@ -3,24 +3,29 @@ import { Navbar, Student, Location, Map } from './Components'
 import { Read, Write } from './Temp'
 
 
+
 const App = () => {
   return (
     <div className='h-screen w-full bg-slate-950'>
       <Navbar/>
 
-      <div className='flex h-[90vh] bg-lime-400'>
+      <div className='flex h-[90vh] border-t-[0.5px]'>
 
-        <div className='bg-blue-400 w-full'>
-          <Write/>
+        <div className='w-full'>
+          <Map />
         </div>
 
-        <div className='bg-red-300 w-full flex flex-col'>
+        <div className='  w-full flex flex-col text-white'>
 
-            <div className='h-full bg-green-400'>
-              <Read/>
+            
+
+            <div className='h-full'>
+              <Student />
             </div>
 
-            <div className='h-full bg-green-500'>
+            
+            <div className='h-full'>
+
               <Location/>
             </div>
 
