@@ -52,7 +52,7 @@ const Student = () => {
 
   return (
     <div className='h-full flex flex-col justify-center'>
-      <p className='w-full text-center text-3xl font-thin mt-[20px]'>Student details</p>
+      <p className='w-full text-center text-3xl font-thin mt-[20px]'>Workers details</p>
       <div className='text-white p-[20px] flex flex-row h-full gap-[30px]'>
 
         <div className='bg-[#1E0342] h-full w-full flex flex-col rounded-xl'>
@@ -71,11 +71,12 @@ const Student = () => {
             sx={{
               background: '#F6F5F2',
               padding: '20px',
-              height: '150px'
+              height: '150px',
+              margin : '10px'
             }}
           >
             <div className='flex flex-col justify-evenly h-full'>
-              <p className='text-xl font-light'><span className='font-medium'>Name :</span> Nipples</p>
+              <p className='text-xl font-light'><span className='font-medium'>Name :</span> Worker 1</p>
               <p className='text-xl font-light'><span className='font-medium'>Status :</span> {student1}</p>
             </div>
           </Paper>
@@ -84,11 +85,12 @@ const Student = () => {
             sx={{
               background: '#F6F5F2',
               padding: '20px',
-              height: '150px'
+              height: '150px',
+              margin : '10px'
             }}
           >
             <div className='flex flex-col gap-[10px] justify-evenly h-full'>
-              <p className='text-xl font-light'><span className='font-medium'>Name :</span> Janu</p>
+              <p className='text-xl font-light'><span className='font-medium'>Name :</span> Worker 2</p>
               <p className='text-xl font-light'><span className='font-medium'>Status :</span> {student2}</p>
             </div>
           </Paper>
